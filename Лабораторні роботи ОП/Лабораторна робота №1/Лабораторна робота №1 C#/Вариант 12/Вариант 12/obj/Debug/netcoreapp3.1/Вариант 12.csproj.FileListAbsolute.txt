@@ -1,0 +1,14 @@
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\bin\Debug\netcoreapp3.1\Вариант 12.exe
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\bin\Debug\netcoreapp3.1\Вариант 12.deps.json
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\bin\Debug\netcoreapp3.1\Вариант 12.runtimeconfig.json
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\bin\Debug\netcoreapp3.1\Вариант 12.runtimeconfig.dev.json
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\bin\Debug\netcoreapp3.1\Вариант 12.dll
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\bin\Debug\netcoreapp3.1\Вариант 12.pdb
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\obj\Debug\netcoreapp3.1\Вариант 12.csproj.AssemblyReference.cache
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\obj\Debug\netcoreapp3.1\Вариант 12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\obj\Debug\netcoreapp3.1\Вариант 12.AssemblyInfoInputs.cache
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\obj\Debug\netcoreapp3.1\Вариант 12.AssemblyInfo.cs
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\obj\Debug\netcoreapp3.1\Вариант 12.csproj.CoreCompileInputs.cache
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\obj\Debug\netcoreapp3.1\Вариант 12.dll
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\obj\Debug\netcoreapp3.1\Вариант 12.pdb
+C:\Users\Jimbo\Desktop\Лаба C#\Вариант 12\Вариант 12\obj\Debug\netcoreapp3.1\Вариант 12.genruntimeconfig.cache
