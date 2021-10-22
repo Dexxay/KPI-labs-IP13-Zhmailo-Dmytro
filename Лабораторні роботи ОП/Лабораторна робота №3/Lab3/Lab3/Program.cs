@@ -12,17 +12,17 @@ namespace Lab3
              */
             Console.Write("Введiть значення x: ");
             string input = Console.ReadLine();
-            int x = Convert.ToInt32(input);
+            double x = Convert.ToDouble(input);
             while (x < 0 || x > 5)
             {
                 Console.Write("Введiть коректне значення x: ");
                 input = Console.ReadLine();
-                x = Convert.ToInt32(input);
+                x = Convert.ToDouble(input);
             }
             double result = 0;
             double prev_result = 0;
             double difference = 1;
-            int number = 2;
+            int number_x2 = 4;
             int i;
             double factorial;
             double epsilon = Math.Pow(10, -4);
@@ -31,15 +31,15 @@ namespace Lab3
                     prev_result = result;
                     factorial = 1;
                     i = 2;
-                    while (i <= 2 * number)
+                    while (i <= number_x2)
                     {
                         factorial *= i;
                         i++;
                     }
-                    result = prev_result + (Math.Pow(x, number * 2) / factorial);
+                    result = prev_result + (Math.Pow(x, number_x2) / factorial);
                     difference = Math.Abs(result - prev_result);
                     Console.WriteLine($"prev {prev_result} curr {result} n {number} fact {factorial} diff {difference}");
-                    number += 2;
+                    number_x2 += 4;
                 }     
             Console.WriteLine($"Сума парних компонент ряду при x = {x}, дорiвнює {result}");
             Console.ReadKey();
