@@ -38,7 +38,6 @@ namespace Lab3
                     }
                     result = prev_result + (Math.Pow(x, number_x2) / factorial);
                     difference = Math.Abs(result - prev_result);
-                    Console.WriteLine($"prev {prev_result} curr {result} n {number} fact {factorial} diff {difference}");
                     number_x2 += 4;
                 }     
             Console.WriteLine($"Сума парних компонент ряду при x = {x}, дорiвнює {result}");
