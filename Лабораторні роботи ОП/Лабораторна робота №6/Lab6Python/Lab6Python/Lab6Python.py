@@ -10,9 +10,9 @@ a = float(input('Input a(a > 0):  '))
 while a <= 0:
     a = float(input('Wrong a. Input correct a(a > 0): '))
 
-number = int(input('Input number(number > 0):  '))
+number = int(input('Input n(n > 0):  '))
 while number <= 0:
-    number = int(input('Wrong a. Input correct a(a > 0): '))
+    number = int(input('Wrong n. Input correct n(n > 0): '))
 
 numerator = (newton_formula(3, a, number) - (newton_formula(6, ((a ** 2) + 1), number)))
 denominator = (1 + (newton_formula(7, (3 + a), number)))
