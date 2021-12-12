@@ -1,5 +1,5 @@
 ﻿using System;
-
+// ІП-13 Жмайло Дмитро, Варіант-13
 namespace Lab_6_CSharp
 {
     class Program
