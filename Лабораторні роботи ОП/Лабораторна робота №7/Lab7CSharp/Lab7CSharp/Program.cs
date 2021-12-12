@@ -27,7 +27,7 @@ namespace Lab7CSharp
             Console.ReadKey();
         }
 
-        static void FillAray(int [] arr) /* Функція, яка заповнює масив випадковими значеннями (як і додатними, так і від'ємними) */
+        static void FillAray(int [] arr) /* Функція, яка заповнює масив випадковими цілими значеннями (як і додатними, так і від'ємними) */
         {
             Random rand = new Random();
             for (int i = 0; i < arr.Length; i++)
