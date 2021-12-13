@@ -16,7 +16,7 @@ namespace Lab7CSharp
                 size = Convert.ToInt32(input);
             }
             int[] array = new int[size];
-            FillAray(array);
+            FillArray(array);
             Console.WriteLine("Generated array:");
             DisplayArray(array);
             double abs_average = FindAbsAverage(array);
@@ -27,7 +27,7 @@ namespace Lab7CSharp
             Console.ReadKey();
         }
 
-        static void FillAray(int [] arr) /* Функція, яка заповнює масив випадковими цілими значеннями (як і додатними, так і від'ємними) */
+        static void FillArray(int [] arr) /* Функція, яка заповнює масив випадковими цілими значеннями (як і додатними, так і від'ємними) */
         {
             Random rand = new Random();
             for (int i = 0; i < arr.Length; i++)
