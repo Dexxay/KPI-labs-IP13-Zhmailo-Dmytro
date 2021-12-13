@@ -9,7 +9,7 @@ namespace Lab7CSharp
             Console.Write("Input n: ");
             string input = Console.ReadLine();
             int size = Convert.ToInt32(input);
-            while (size < 0)
+            while (size <= 0)
             {
                 Console.Write("Wrong n. Input correct n: ");
                 input = Console.ReadLine();
