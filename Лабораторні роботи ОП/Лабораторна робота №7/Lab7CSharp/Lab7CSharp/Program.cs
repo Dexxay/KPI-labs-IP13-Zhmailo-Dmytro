@@ -30,9 +30,11 @@ namespace Lab7CSharp
         static void FillArray(int [] arr) /* Функція, яка заповнює масив випадковими цілими значеннями (як і додатними, так і від'ємними) */
         {
             Random rand = new Random();
+            int min_rand = -25;
+            int max_rand = 25;
             for (int i = 0; i < arr.Length; i++)
             {
-                arr[i] = rand.Next(-25, 25);
+                arr[i] = rand.Next(min_rand, max_rand);
             }
         }
 
