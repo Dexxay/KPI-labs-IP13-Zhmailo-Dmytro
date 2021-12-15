@@ -34,7 +34,7 @@ namespace Lab7CSharp
             int max_rand = 25;
             for (int i = 0; i < arr.Length; i++)
             {
-                arr[i] = rand.Next(min_rand, max_rand);
+                arr[i] = rand.Next(min_rand, max_rand + 1);
             }
         }
 
