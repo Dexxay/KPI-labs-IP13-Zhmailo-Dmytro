@@ -9,7 +9,10 @@ namespace Lab9_CSharp
         static void Main(string[] args)
         {
             string text = InputText();
-            char first_letter = InputLetters(out char last_letter);
+            
+            char first_letter = InputChar("Input first letter: ");
+            char last_letter = InputChar("Input last letter: ");
+            
             string[] words_array = SplitWords(text);
             List<string> result_list = FindWords(words_array, first_letter, last_letter);
             Console.WriteLine($"All words, that starts with letter \'{first_letter}\' and finishes with letter \'{last_letter}\': ");
@@ -23,19 +26,14 @@ namespace Lab9_CSharp
             string sentence = input;
             return sentence;
         }
-
-        static char InputLetters(out char last) // Функція для введення першої та останньої літери шуканих слів
+        
+        static char InputChar(string message)
         {
-            Console.Write("Input first letter: ");
+            Console.Write(message);
             string input = Console.ReadLine();
-            char first = Convert.ToChar(input);
-
-            Console.Write("Input last letter: ");
-            input = Console.ReadLine();
-            last = Convert.ToChar(input);
-
-            return first;
+            return Convert.ToChar(input);
         }
+            
 
         static string[] SplitWords (string sentence) // Функція для розділення речення на окремі слова
         {
